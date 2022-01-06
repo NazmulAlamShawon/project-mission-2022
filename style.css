@@ -1,3 +1,6 @@
+body{
+    margin: 0 auto;
+}
 .header_section{
     display: flex;
     font-size: 1.25em;
@@ -7,6 +10,7 @@ h1{
     border-left: 3px solid blue ;
     margin-left: 10px;
     padding: 5px;
+    font-size: 1.7em;
 }
 #web_developer{
     margin-left: 3px solid red;
@@ -14,4 +18,76 @@ h1{
 .web_Mission{
     color: rgb(44, 161, 230);
     line-height: 1.25em;
+}
+.btn{
+    background-color: rgb(2, 43, 66);
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
+.right_side{
+    margin: 10px;
+    padding: 5px;
+}
+.img{
+    margin-top: 0;
+}
+h2{
+    
+    font-size: 1.5em;
+}
+.year{
+    color: rgb(44, 161, 230);
+}
+.vission_section{
+    display: flex;
+ 
+}
+.card-item{
+     height: 300px;
+     width: 350px;
+     border-radius: 5px;
+     background-color: aquamarine;
+     padding: 10px;
+     margin: 10px;
+     text-align: justify;
+     
+     
+}
+
+#item1{
+    background-color: rgb(34, 218, 64);
+}
+
+#item2{
+    background-color: rgb(46, 255, 19);
+}
+
+#item3{
+    background-color: rgb(93, 243, 23);
+}
+
+.developer_Unit{
+    display: flex;
+    
+}
+.img1{
+    margin-left: 10px;
+}
+.left_sec{
+    margin: 10px;
+    padding: 10px;
+}
+.right.sec{
+    margin-right: 20px;
+}
+.global_Unit{
+    display: flex;
+}
+.glb_right{
+    margin: 10px;
+    padding: 10px;
 }

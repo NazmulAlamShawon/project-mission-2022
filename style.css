@@ -9,8 +9,20 @@ body{
 h1{
     border-left: 3px solid blue ;
     margin-left: 10px;
-    padding: 5px;
+    padding: 10px;
     font-size: 1.7em;
+
+}
+h2{
+    
+    font-size: 1.5em;
+    padding: 10px;
+}
+h3{
+    padding: 10px;
+}
+p{
+    padding: 10px;
 }
 #web_developer{
     margin-left: 3px solid red;
@@ -24,9 +36,12 @@ h1{
     text-decoration: none;
     color: #fff;
     padding: 5px;
+    margin: 10px;
+
 }
 a{
     text-decoration: none;
+    padding: 10px;
 }
 .right_side{
     margin: 10px;
@@ -35,10 +50,7 @@ a{
 .img{
     margin-top: 0;
 }
-h2{
-    
-    font-size: 1.5em;
-}
+
 .year{
     color: rgb(44, 161, 230);
 }
@@ -90,4 +102,27 @@ h2{
 .glb_right{
     margin: 10px;
     padding: 10px;
+}
+.corona_App{
+    display: flex;
+
+}
+#coronas{
+    text-align: center;
+}
+.corona_Apps{
+    color: rgb(44, 161, 230);
+}
+.footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: chartreuse;
+    width: 100%;
+
+}
+.foot{
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
 }

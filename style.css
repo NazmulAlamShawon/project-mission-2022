@@ -34,6 +34,7 @@ p{
 .btn{
     background-color: rgb(2, 43, 66);
     text-decoration: none;
+    border-radius: 5px;
     color: #fff;
     padding: 5px;
     margin: 10px;
